@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 
-{% block title %} Blogs {% endblock %}
+{% block title %} {{post.title}} {% endblock %}
 
 {% block css %}
 .edit{
@@ -29,9 +29,9 @@ float: right;
             </div>
       </div>
       <br>
-      <img src="/media/{{post.image}}" alt="" height="250px" width="500px">
+      <img src="/media/{{post.image}}" alt="" height="500px" width=auto>
       <br>
-      <p>{{post.content}}.</p>
+      <p>{{post.content|safe}}.</p>
       <hr>
       {% if user.is_authenticated %}
       <div class="container">
