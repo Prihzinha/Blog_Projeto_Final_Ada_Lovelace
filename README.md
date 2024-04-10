@@ -39,3 +39,6 @@ Também optamos pelos projetos serem criados de formas diferentes para demostrar
  - [WoMakersCode](https://www.maismulheres.tech)
  - [Documentação Python](https://docs.python.org/pt-br/3/index.html)
  - [GitHub Docs](https://docs.github.com/pt)
+ - [Django Web Framework](https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/Django)
+ - [Pythonanywhere](https://help.pythonanywhere.com/pages/DeployExistingDjangoProject/)
+   
